@@ -1,0 +1,45 @@
+{
+  "query": "SELECT marca, modelo, cor, codSap, pvpSemIva FROM equipments WHERE modelo LIKE '%iPhone 17%' AND codSap IS NOT NULL LIMIT 5",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway02.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 46YM1JQUHqgUQB2.root --database fkXtQxcwboF7jJrEjfX98k --execute SELECT marca, modelo, cor, codSap, pvpSemIva FROM equipments WHERE modelo LIKE '%iPhone 17%' AND codSap IS NOT NULL LIMIT 5",
+  "rows": [
+    {
+      "marca": "3MK",
+      "modelo": "Vidro temperado iPhone 17 / 17 Pro",
+      "cor": "NULL",
+      "codSap": "1700292271",
+      "pvpSemIva": "NULL"
+    },
+    {
+      "marca": "3MK",
+      "modelo": "Vidro temperado iPhone 17 Air",
+      "cor": "NULL",
+      "codSap": "1700292275",
+      "pvpSemIva": "NULL"
+    },
+    {
+      "marca": "3MK",
+      "modelo": "Vidro temperado iPhone 17 Pro Max",
+      "cor": "NULL",
+      "codSap": "1700292287",
+      "pvpSemIva": "NULL"
+    },
+    {
+      "marca": "Apple",
+      "modelo": "iPhone 17 256GB + Capa + Vidro reciclado",
+      "cor": "azul",
+      "codSap": "2000041132",
+      "pvpSemIva": "NULL"
+    },
+    {
+      "marca": "Apple",
+      "modelo": "iPhone 17 256GB + Capa + Vidro reciclado",
+      "cor": "branco",
+      "codSap": "2000041130",
+      "pvpSemIva": "NULL"
+    }
+  ],
+  "messages": [],
+  "stdout": "marca\tmodelo\tcor\tcodSap\tpvpSemIva\n3MK\tVidro temperado iPhone 17 / 17 Pro\tNULL\t1700292271\tNULL\n3MK\tVidro temperado iPhone 17 Air\tNULL\t1700292275\tNULL\n3MK\tVidro temperado iPhone 17 Pro Max\tNULL\t1700292287\tNULL\nApple\tiPhone 17 256GB + Capa + Vidro reciclado\tazul\t2000041132\tNULL\nApple\tiPhone 17 256GB + Capa + Vidro reciclado\tbranco\t2000041130\tNULL\n",
+  "stderr": "",
+  "execution_time_ms": 860
+}

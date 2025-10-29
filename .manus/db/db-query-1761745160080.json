@@ -1,0 +1,80 @@
+{
+  "query": "SELECT marca, modelo, cor, codSap, pvpSemIva FROM equipments WHERE modelo LIKE '%iPhone 17%' LIMIT 10",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway02.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 46YM1JQUHqgUQB2.root --database fkXtQxcwboF7jJrEjfX98k --execute SELECT marca, modelo, cor, codSap, pvpSemIva FROM equipments WHERE modelo LIKE '%iPhone 17%' LIMIT 10",
+  "rows": [
+    {
+      "marca": "Apple",
+      "modelo": "iPhone 17 5G 256GB",
+      "cor": "preto",
+      "codSap": "NULL",
+      "pvpSemIva": "804.869918699187"
+    },
+    {
+      "marca": "Apple",
+      "modelo": "iPhone 17 256GB + Capa + Vidro reciclado",
+      "cor": "preto",
+      "codSap": "NULL",
+      "pvpSemIva": "825.1951219512196"
+    },
+    {
+      "marca": "Apple",
+      "modelo": "iPhone 17 5G 256GB",
+      "cor": "branco",
+      "codSap": "NULL",
+      "pvpSemIva": "804.869918699187"
+    },
+    {
+      "marca": "Apple",
+      "modelo": "iPhone 17 256GB + Capa + Vidro reciclado",
+      "cor": "branco",
+      "codSap": "NULL",
+      "pvpSemIva": "825.1951219512196"
+    },
+    {
+      "marca": "Apple",
+      "modelo": "iPhone 17 5G 256GB",
+      "cor": "azul",
+      "codSap": "NULL",
+      "pvpSemIva": "804.869918699187"
+    },
+    {
+      "marca": "Apple",
+      "modelo": "iPhone 17 256GB + Capa + Vidro reciclado",
+      "cor": "azul",
+      "codSap": "NULL",
+      "pvpSemIva": "825.1951219512196"
+    },
+    {
+      "marca": "Apple",
+      "modelo": "iPhone 17 5G 256GB",
+      "cor": "lavanda",
+      "codSap": "NULL",
+      "pvpSemIva": "804.869918699187"
+    },
+    {
+      "marca": "Apple",
+      "modelo": "iPhone 17 256GB + Capa + Vidro reciclado",
+      "cor": "lavanda",
+      "codSap": "NULL",
+      "pvpSemIva": "825.1951219512196"
+    },
+    {
+      "marca": "Apple",
+      "modelo": "iPhone 17 5G 256GB",
+      "cor": "verde",
+      "codSap": "NULL",
+      "pvpSemIva": "804.869918699187"
+    },
+    {
+      "marca": "Apple",
+      "modelo": "iPhone 17 256GB + Capa + Vidro reciclado",
+      "cor": "verde",
+      "codSap": "NULL",
+      "pvpSemIva": "825.1951219512196"
+    }
+  ],
+  "messages": [],
+  "stdout": "marca\tmodelo\tcor\tcodSap\tpvpSemIva\nApple\tiPhone 17 5G 256GB\tpreto\tNULL\t804.869918699187\nApple\tiPhone 17 256GB + Capa + Vidro reciclado\tpreto\tNULL\t825.1951219512196\nApple\tiPhone 17 5G 256GB\tbranco\tNULL\t804.869918699187\nApple\tiPhone 17 256GB + Capa + Vidro reciclado\tbranco\tNULL\t825.1951219512196\nApple\tiPhone 17 5G 256GB\tazul\tNULL\t804.869918699187\nApple\tiPhone 17 256GB + Capa + Vidro reciclado\tazul\tNULL\t825.1951219512196\nApple\tiPhone 17 5G 256GB\tlavanda\tNULL\t804.869918699187\nApple\tiPhone 17 256GB + Capa + Vidro reciclado\tlavanda\tNULL\t825.1951219512196\nApple\tiPhone 17 5G 256GB\tverde\tNULL\t804.869918699187\nApple\tiPhone 17 256GB + Capa + Vidro reciclado\tverde\tNULL\t825.1951219512196\n",
+  "stderr": "",
+  "execution_time_ms": 50
+}

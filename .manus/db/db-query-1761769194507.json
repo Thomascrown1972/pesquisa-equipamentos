@@ -1,0 +1,29 @@
+{
+  "query": "SELECT id, role, LEFT(content, 100) as content_preview, createdAt FROM chatMessages ORDER BY createdAt DESC LIMIT 5",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway02.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 46YM1JQUHqgUQB2.root --database fkXtQxcwboF7jJrEjfX98k --execute SELECT id, role, LEFT(content, 100) as content_preview, createdAt FROM chatMessages ORDER BY createdAt DESC LIMIT 5",
+  "rows": [
+    {
+      "id": "570001",
+      "role": "user",
+      "content_preview": "s25",
+      "createdAt": "2025-10-29 20:17:30"
+    },
+    {
+      "id": "540001",
+      "role": "user",
+      "content_preview": "s25 ultra",
+      "createdAt": "2025-10-29 17:30:57"
+    }
+  ],
+  "messages": [
+    "570002\tassistant\tEncontrei **170 equipamentos** para a sua pesquisa.",
+    "⚠️ A apresentar os primeiros 30 resultados. Par\t2025-10-29 20:17:30",
+    "540002\tassistant\t**Total de equipamentos encontrados: 50**",
+    "Apresentando os primeiros 30 resultados. Sugira refinar a\t2025-10-29 17:31:14",
+    "510002\tassistant\t**Total de equipamentos encontrados: 32**",
+    "Apresentando todos os resultados para **Samsung Galaxy S2\t2025-10-29 16:26:21"
+  ],
+  "stdout": "id\trole\tcontent_preview\tcreatedAt\n570002\tassistant\tEncontrei **170 equipamentos** para a sua pesquisa.\n\n⚠️ A apresentar os primeiros 30 resultados. Par\t2025-10-29 20:17:30\n570001\tuser\ts25\t2025-10-29 20:17:30\n540002\tassistant\t**Total de equipamentos encontrados: 50**\n\nApresentando os primeiros 30 resultados. Sugira refinar a\t2025-10-29 17:31:14\n540001\tuser\ts25 ultra\t2025-10-29 17:30:57\n510002\tassistant\t**Total de equipamentos encontrados: 32**\n\nApresentando todos os resultados para **Samsung Galaxy S2\t2025-10-29 16:26:21\n",
+  "stderr": "",
+  "execution_time_ms": 787
+}

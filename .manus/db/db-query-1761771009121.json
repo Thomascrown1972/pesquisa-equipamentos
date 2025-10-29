@@ -1,0 +1,202 @@
+{
+  "query": "SELECT marca, modelo, cor, codSap, pvpSemIva, pvpComIva FROM equipments WHERE modelo LIKE '%iPhone Air%' ORDER BY cor, codSap",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway02.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 46YM1JQUHqgUQB2.root --database fkXtQxcwboF7jJrEjfX98k --execute SELECT marca, modelo, cor, codSap, pvpSemIva, pvpComIva FROM equipments WHERE modelo LIKE '%iPhone Air%' ORDER BY cor, codSap",
+  "rows": [
+    {
+      "marca": "Apple",
+      "modelo": "iPhone Air 256GB",
+      "cor": "azul",
+      "codSap": "1700292481",
+      "pvpSemIva": "1016.25",
+      "pvpComIva": "1249.99"
+    },
+    {
+      "marca": "Apple",
+      "modelo": "iPhone Air 256GB",
+      "cor": "azul",
+      "codSap": "1700292481",
+      "pvpSemIva": "NULL",
+      "pvpComIva": "NULL"
+    },
+    {
+      "marca": "Apple",
+      "modelo": "iPhone Air 512GB",
+      "cor": "azul",
+      "codSap": "1700292485",
+      "pvpSemIva": "NULL",
+      "pvpComIva": "NULL"
+    },
+    {
+      "marca": "Apple",
+      "modelo": "iPhone Air 512GB",
+      "cor": "azul",
+      "codSap": "1700292485",
+      "pvpSemIva": "1219.50",
+      "pvpComIva": "1499.99"
+    },
+    {
+      "marca": "Apple",
+      "modelo": "iPhone Air 1TB",
+      "cor": "azul",
+      "codSap": "1700292489",
+      "pvpSemIva": "NULL",
+      "pvpComIva": "NULL"
+    },
+    {
+      "marca": "Apple",
+      "modelo": "iPhone Air 1TB",
+      "cor": "azul",
+      "codSap": "1700292489",
+      "pvpSemIva": "1422.76",
+      "pvpComIva": "1749.99"
+    },
+    {
+      "marca": "Apple",
+      "modelo": "iPhone Air 256GB",
+      "cor": "branco",
+      "codSap": "1700292479",
+      "pvpSemIva": "1016.25",
+      "pvpComIva": "1249.99"
+    },
+    {
+      "marca": "Apple",
+      "modelo": "iPhone Air 256GB",
+      "cor": "branco",
+      "codSap": "1700292479",
+      "pvpSemIva": "NULL",
+      "pvpComIva": "NULL"
+    },
+    {
+      "marca": "Apple",
+      "modelo": "iPhone Air 512GB",
+      "cor": "branco",
+      "codSap": "1700292483",
+      "pvpSemIva": "NULL",
+      "pvpComIva": "NULL"
+    },
+    {
+      "marca": "Apple",
+      "modelo": "iPhone Air 512GB",
+      "cor": "branco",
+      "codSap": "1700292483",
+      "pvpSemIva": "1219.50",
+      "pvpComIva": "1499.99"
+    },
+    {
+      "marca": "Apple",
+      "modelo": "iPhone Air 1TB",
+      "cor": "branco",
+      "codSap": "1700292487",
+      "pvpSemIva": "1422.76",
+      "pvpComIva": "1749.99"
+    },
+    {
+      "marca": "Apple",
+      "modelo": "iPhone Air 1TB",
+      "cor": "branco",
+      "codSap": "1700292487",
+      "pvpSemIva": "NULL",
+      "pvpComIva": "NULL"
+    },
+    {
+      "marca": "Apple",
+      "modelo": "iPhone Air 256GB",
+      "cor": "dourado",
+      "codSap": "1700292480",
+      "pvpSemIva": "NULL",
+      "pvpComIva": "NULL"
+    },
+    {
+      "marca": "Apple",
+      "modelo": "iPhone Air 256GB",
+      "cor": "dourado",
+      "codSap": "1700292480",
+      "pvpSemIva": "1016.25",
+      "pvpComIva": "1249.99"
+    },
+    {
+      "marca": "Apple",
+      "modelo": "iPhone Air 512GB",
+      "cor": "dourado",
+      "codSap": "1700292484",
+      "pvpSemIva": "1219.50",
+      "pvpComIva": "1499.99"
+    },
+    {
+      "marca": "Apple",
+      "modelo": "iPhone Air 512GB",
+      "cor": "dourado",
+      "codSap": "1700292484",
+      "pvpSemIva": "NULL",
+      "pvpComIva": "NULL"
+    },
+    {
+      "marca": "Apple",
+      "modelo": "iPhone Air 1TB",
+      "cor": "dourado",
+      "codSap": "1700292488",
+      "pvpSemIva": "1422.76",
+      "pvpComIva": "1749.99"
+    },
+    {
+      "marca": "Apple",
+      "modelo": "iPhone Air 1TB",
+      "cor": "dourado",
+      "codSap": "1700292488",
+      "pvpSemIva": "NULL",
+      "pvpComIva": "NULL"
+    },
+    {
+      "marca": "Apple",
+      "modelo": "iPhone Air 256GB",
+      "cor": "preto",
+      "codSap": "1700292478",
+      "pvpSemIva": "1016.25",
+      "pvpComIva": "1249.99"
+    },
+    {
+      "marca": "Apple",
+      "modelo": "iPhone Air 256GB",
+      "cor": "preto",
+      "codSap": "1700292478",
+      "pvpSemIva": "NULL",
+      "pvpComIva": "NULL"
+    },
+    {
+      "marca": "Apple",
+      "modelo": "iPhone Air 512GB",
+      "cor": "preto",
+      "codSap": "1700292482",
+      "pvpSemIva": "1219.50",
+      "pvpComIva": "1499.99"
+    },
+    {
+      "marca": "Apple",
+      "modelo": "iPhone Air 512GB",
+      "cor": "preto",
+      "codSap": "1700292482",
+      "pvpSemIva": "NULL",
+      "pvpComIva": "NULL"
+    },
+    {
+      "marca": "Apple",
+      "modelo": "iPhone Air 1TB",
+      "cor": "preto",
+      "codSap": "1700292486",
+      "pvpSemIva": "NULL",
+      "pvpComIva": "NULL"
+    },
+    {
+      "marca": "Apple",
+      "modelo": "iPhone Air 1TB",
+      "cor": "preto",
+      "codSap": "1700292486",
+      "pvpSemIva": "1422.76",
+      "pvpComIva": "1749.99"
+    }
+  ],
+  "messages": [],
+  "stdout": "marca\tmodelo\tcor\tcodSap\tpvpSemIva\tpvpComIva\nApple\tiPhone Air 256GB\tazul\t1700292481\t1016.25\t1249.99\nApple\tiPhone Air 256GB\tazul\t1700292481\tNULL\tNULL\nApple\tiPhone Air 512GB\tazul\t1700292485\tNULL\tNULL\nApple\tiPhone Air 512GB\tazul\t1700292485\t1219.50\t1499.99\nApple\tiPhone Air 1TB\tazul\t1700292489\tNULL\tNULL\nApple\tiPhone Air 1TB\tazul\t1700292489\t1422.76\t1749.99\nApple\tiPhone Air 256GB\tbranco\t1700292479\t1016.25\t1249.99\nApple\tiPhone Air 256GB\tbranco\t1700292479\tNULL\tNULL\nApple\tiPhone Air 512GB\tbranco\t1700292483\tNULL\tNULL\nApple\tiPhone Air 512GB\tbranco\t1700292483\t1219.50\t1499.99\nApple\tiPhone Air 1TB\tbranco\t1700292487\t1422.76\t1749.99\nApple\tiPhone Air 1TB\tbranco\t1700292487\tNULL\tNULL\nApple\tiPhone Air 256GB\tdourado\t1700292480\tNULL\tNULL\nApple\tiPhone Air 256GB\tdourado\t1700292480\t1016.25\t1249.99\nApple\tiPhone Air 512GB\tdourado\t1700292484\t1219.50\t1499.99\nApple\tiPhone Air 512GB\tdourado\t1700292484\tNULL\tNULL\nApple\tiPhone Air 1TB\tdourado\t1700292488\t1422.76\t1749.99\nApple\tiPhone Air 1TB\tdourado\t1700292488\tNULL\tNULL\nApple\tiPhone Air 256GB\tpreto\t1700292478\t1016.25\t1249.99\nApple\tiPhone Air 256GB\tpreto\t1700292478\tNULL\tNULL\nApple\tiPhone Air 512GB\tpreto\t1700292482\t1219.50\t1499.99\nApple\tiPhone Air 512GB\tpreto\t1700292482\tNULL\tNULL\nApple\tiPhone Air 1TB\tpreto\t1700292486\tNULL\tNULL\nApple\tiPhone Air 1TB\tpreto\t1700292486\t1422.76\t1749.99\n",
+  "stderr": "",
+  "execution_time_ms": 60
+}

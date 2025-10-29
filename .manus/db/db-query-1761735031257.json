@@ -1,0 +1,80 @@
+{
+  "query": "SELECT marca, modelo, codSap, pvpSemIva, categoria FROM equipments LIMIT 10;",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway02.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 46YM1JQUHqgUQB2.root --database fkXtQxcwboF7jJrEjfX98k --execute SELECT marca, modelo, codSap, pvpSemIva, categoria FROM equipments LIMIT 10;",
+  "rows": [
+    {
+      "marca": "Cor",
+      "modelo": "Novidade",
+      "codSap": "PVP S/IVA ",
+      "pvpSemIva": "PVP C/IVA",
+      "categoria": "Marca"
+    },
+    {
+      "marca": "Preto/Cinzento",
+      "modelo": "NULL",
+      "codSap": "36.577235772357724",
+      "pvpSemIva": "44.99",
+      "categoria": "Alcatel"
+    },
+    {
+      "marca": "Preto/Prateado",
+      "modelo": "NULL",
+      "codSap": "36.577235772357724",
+      "pvpSemIva": "44.99",
+      "categoria": "Alcatel"
+    },
+    {
+      "marca": "Preto",
+      "modelo": "NULL",
+      "codSap": "81.29268292682927",
+      "pvpSemIva": "99.99",
+      "categoria": "Alcatel"
+    },
+    {
+      "marca": "Preto",
+      "modelo": "NULL",
+      "codSap": "60.96747967479674",
+      "pvpSemIva": "74.99",
+      "categoria": "Caterpillar"
+    },
+    {
+      "marca": "Preto",
+      "modelo": "NULL",
+      "codSap": "81.29268292682927",
+      "pvpSemIva": "99.99",
+      "categoria": "Caterpillar"
+    },
+    {
+      "marca": "Preto",
+      "modelo": "NULL",
+      "codSap": "81.29268292682927",
+      "pvpSemIva": "99.99",
+      "categoria": "Caterpillar"
+    },
+    {
+      "marca": "Preto",
+      "modelo": "NULL",
+      "codSap": "504.0569105691057",
+      "pvpSemIva": "619.99",
+      "categoria": "Apple"
+    },
+    {
+      "marca": "Preto",
+      "modelo": "NULL",
+      "codSap": "552.8373983739838",
+      "pvpSemIva": "679.99",
+      "categoria": "Apple"
+    },
+    {
+      "marca": "Preto",
+      "modelo": "NULL",
+      "codSap": "430.8861788617886",
+      "pvpSemIva": "529.99",
+      "categoria": "Apple"
+    }
+  ],
+  "messages": [],
+  "stdout": "marca\tmodelo\tcodSap\tpvpSemIva\tcategoria\nCor\tNovidade\tPVP S/IVA \tPVP C/IVA\tMarca\nPreto/Cinzento\tNULL\t36.577235772357724\t44.99\tAlcatel\nPreto/Prateado\tNULL\t36.577235772357724\t44.99\tAlcatel\nPreto\tNULL\t81.29268292682927\t99.99\tAlcatel\nPreto\tNULL\t60.96747967479674\t74.99\tCaterpillar\nPreto\tNULL\t81.29268292682927\t99.99\tCaterpillar\nPreto\tNULL\t81.29268292682927\t99.99\tCaterpillar\nPreto\tNULL\t504.0569105691057\t619.99\tApple\nPreto\tNULL\t552.8373983739838\t679.99\tApple\nPreto\tNULL\t430.8861788617886\t529.99\tApple\n",
+  "stderr": "",
+  "execution_time_ms": 52
+}

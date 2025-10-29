@@ -1,0 +1,40 @@
+{
+  "query": "SELECT modelo, marca, codSap, pvpSemIva FROM equipments WHERE LOWER(modelo) LIKE '%airpods%' OR LOWER(marca) LIKE '%airpods%' LIMIT 10",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway02.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 46YM1JQUHqgUQB2.root --database fkXtQxcwboF7jJrEjfX98k --execute SELECT modelo, marca, codSap, pvpSemIva FROM equipments WHERE LOWER(modelo) LIKE '%airpods%' OR LOWER(marca) LIKE '%airpods%' LIMIT 10",
+  "rows": [
+    {
+      "modelo": "AirPods 4",
+      "marca": "Apple",
+      "codSap": "1700285611",
+      "pvpSemIva": "121.9431"
+    },
+    {
+      "modelo": "AirPods 4 (ANC)",
+      "marca": "Apple",
+      "codSap": "1700285612",
+      "pvpSemIva": "162.5935"
+    },
+    {
+      "modelo": "AirPods Pro 3ª Geração c/caixa MagSafe USB-C",
+      "marca": "Apple",
+      "codSap": "1700292520",
+      "pvpSemIva": "203.2439"
+    },
+    {
+      "modelo": "AirPods Max",
+      "marca": "Apple",
+      "codSap": "1700285614",
+      "pvpSemIva": "471.5366"
+    },
+    {
+      "modelo": "AirPods Max",
+      "marca": "Apple",
+      "codSap": "1700285613",
+      "pvpSemIva": "471.5366"
+    }
+  ],
+  "messages": [],
+  "stdout": "modelo\tmarca\tcodSap\tpvpSemIva\nAirPods 4\tApple\t1700285611\t121.9431\nAirPods 4 (ANC)\tApple\t1700285612\t162.5935\nAirPods Pro 3ª Geração c/caixa MagSafe USB-C\tApple\t1700292520\t203.2439\nAirPods Max\tApple\t1700285614\t471.5366\nAirPods Max\tApple\t1700285613\t471.5366\n",
+  "stderr": "",
+  "execution_time_ms": 134
+}

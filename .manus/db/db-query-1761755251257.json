@@ -1,0 +1,80 @@
+{
+  "query": "SELECT marca, modelo, cor, codSap, pvpSemIva FROM equipments WHERE modelo LIKE '%S25 Ultra%' LIMIT 10",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway02.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 46YM1JQUHqgUQB2.root --database fkXtQxcwboF7jJrEjfX98k --execute SELECT marca, modelo, cor, codSap, pvpSemIva FROM equipments WHERE modelo LIKE '%S25 Ultra%' LIMIT 10",
+  "rows": [
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy S25 Ultra 5G EE 256GB",
+      "cor": "Preto",
+      "codSap": "NULL",
+      "pvpSemIva": "1016.2520325203252"
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy S25 Ultra 5G EE 512GB",
+      "cor": "Preto",
+      "codSap": "NULL",
+      "pvpSemIva": "1097.5528455284552"
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy S25 Ultra 5G 1TB",
+      "cor": "Preto",
+      "codSap": "NULL",
+      "pvpSemIva": "1300.8048780487804"
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy S25 Ultra 5G EE 256GB",
+      "cor": "Preto",
+      "codSap": "NULL",
+      "pvpSemIva": "1219.5040650406504"
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy S25 Ultra 5G 256GB",
+      "cor": "Azul",
+      "codSap": "NULL",
+      "pvpSemIva": "1219.5040650406504"
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy S25 Ultra 5G 256GB",
+      "cor": "Branco",
+      "codSap": "NULL",
+      "pvpSemIva": "1219.5040650406504"
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy S25 Ultra 5G 256GB",
+      "cor": "Cinzento",
+      "codSap": "NULL",
+      "pvpSemIva": "1219.5040650406504"
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy S25 Ultra 5G 256GB",
+      "cor": "Preto",
+      "codSap": "NULL",
+      "pvpSemIva": "1219.5040650406504"
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy S25 Ultra 5G 256GB",
+      "cor": "Azul",
+      "codSap": "NULL",
+      "pvpSemIva": "1219.5040650406504"
+    },
+    {
+      "marca": "Samsung",
+      "modelo": "Galaxy S25 Ultra 5G 256GB",
+      "cor": "Branco",
+      "codSap": "NULL",
+      "pvpSemIva": "1219.5040650406504"
+    }
+  ],
+  "messages": [],
+  "stdout": "marca\tmodelo\tcor\tcodSap\tpvpSemIva\nSamsung\tGalaxy S25 Ultra 5G EE 256GB\tPreto\tNULL\t1016.2520325203252\nSamsung\tGalaxy S25 Ultra 5G EE 512GB\tPreto\tNULL\t1097.5528455284552\nSamsung\tGalaxy S25 Ultra 5G 1TB\tPreto\tNULL\t1300.8048780487804\nSamsung\tGalaxy S25 Ultra 5G EE 256GB\tPreto\tNULL\t1219.5040650406504\nSamsung\tGalaxy S25 Ultra 5G 256GB\tAzul\tNULL\t1219.5040650406504\nSamsung\tGalaxy S25 Ultra 5G 256GB\tBranco\tNULL\t1219.5040650406504\nSamsung\tGalaxy S25 Ultra 5G 256GB\tCinzento\tNULL\t1219.5040650406504\nSamsung\tGalaxy S25 Ultra 5G 256GB\tPreto\tNULL\t1219.5040650406504\nSamsung\tGalaxy S25 Ultra 5G 256GB\tAzul\tNULL\t1219.5040650406504\nSamsung\tGalaxy S25 Ultra 5G 256GB\tBranco\tNULL\t1219.5040650406504\n",
+  "stderr": "",
+  "execution_time_ms": 200
+}

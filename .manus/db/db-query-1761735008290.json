@@ -1,0 +1,9 @@
+{
+  "query": "SELECT marca, modelo, codSap, pvpSemIva, categoria, subcategoria FROM equipments WHERE modelo LIKE '%iPhone 17%' OR modelo LIKE '%iphone 17%' LIMIT 10;",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway02.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 46YM1JQUHqgUQB2.root --database fkXtQxcwboF7jJrEjfX98k --execute SELECT marca, modelo, codSap, pvpSemIva, categoria, subcategoria FROM equipments WHERE modelo LIKE '%iPhone 17%' OR modelo LIKE '%iphone 17%' LIMIT 10;",
+  "rows": [],
+  "messages": [],
+  "stdout": "",
+  "stderr": "",
+  "execution_time_ms": 62
+}

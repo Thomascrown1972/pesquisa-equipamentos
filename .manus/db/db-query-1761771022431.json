@@ -1,0 +1,82 @@
+{
+  "query": "SELECT id, marca, modelo, cor, codSap, pvpSemIva, pvpComIva FROM equipments WHERE modelo = 'iPhone Air 1TB' ORDER BY cor, pvpSemIva DESC",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway02.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 46YM1JQUHqgUQB2.root --database fkXtQxcwboF7jJrEjfX98k --execute SELECT id, marca, modelo, cor, codSap, pvpSemIva, pvpComIva FROM equipments WHERE modelo = 'iPhone Air 1TB' ORDER BY cor, pvpSemIva DESC",
+  "rows": [
+    {
+      "id": "150261",
+      "marca": "Apple",
+      "modelo": "iPhone Air 1TB",
+      "cor": "azul",
+      "codSap": "1700292489",
+      "pvpSemIva": "1422.76",
+      "pvpComIva": "1749.99"
+    },
+    {
+      "id": "152373",
+      "marca": "Apple",
+      "modelo": "iPhone Air 1TB",
+      "cor": "azul",
+      "codSap": "1700292489",
+      "pvpSemIva": "NULL",
+      "pvpComIva": "NULL"
+    },
+    {
+      "id": "150259",
+      "marca": "Apple",
+      "modelo": "iPhone Air 1TB",
+      "cor": "branco",
+      "codSap": "1700292487",
+      "pvpSemIva": "1422.76",
+      "pvpComIva": "1749.99"
+    },
+    {
+      "id": "152374",
+      "marca": "Apple",
+      "modelo": "iPhone Air 1TB",
+      "cor": "branco",
+      "codSap": "1700292487",
+      "pvpSemIva": "NULL",
+      "pvpComIva": "NULL"
+    },
+    {
+      "id": "150260",
+      "marca": "Apple",
+      "modelo": "iPhone Air 1TB",
+      "cor": "dourado",
+      "codSap": "1700292488",
+      "pvpSemIva": "1422.76",
+      "pvpComIva": "1749.99"
+    },
+    {
+      "id": "152375",
+      "marca": "Apple",
+      "modelo": "iPhone Air 1TB",
+      "cor": "dourado",
+      "codSap": "1700292488",
+      "pvpSemIva": "NULL",
+      "pvpComIva": "NULL"
+    },
+    {
+      "id": "150258",
+      "marca": "Apple",
+      "modelo": "iPhone Air 1TB",
+      "cor": "preto",
+      "codSap": "1700292486",
+      "pvpSemIva": "1422.76",
+      "pvpComIva": "1749.99"
+    },
+    {
+      "id": "152376",
+      "marca": "Apple",
+      "modelo": "iPhone Air 1TB",
+      "cor": "preto",
+      "codSap": "1700292486",
+      "pvpSemIva": "NULL",
+      "pvpComIva": "NULL"
+    }
+  ],
+  "messages": [],
+  "stdout": "id\tmarca\tmodelo\tcor\tcodSap\tpvpSemIva\tpvpComIva\n150261\tApple\tiPhone Air 1TB\tazul\t1700292489\t1422.76\t1749.99\n152373\tApple\tiPhone Air 1TB\tazul\t1700292489\tNULL\tNULL\n150259\tApple\tiPhone Air 1TB\tbranco\t1700292487\t1422.76\t1749.99\n152374\tApple\tiPhone Air 1TB\tbranco\t1700292487\tNULL\tNULL\n150260\tApple\tiPhone Air 1TB\tdourado\t1700292488\t1422.76\t1749.99\n152375\tApple\tiPhone Air 1TB\tdourado\t1700292488\tNULL\tNULL\n150258\tApple\tiPhone Air 1TB\tpreto\t1700292486\t1422.76\t1749.99\n152376\tApple\tiPhone Air 1TB\tpreto\t1700292486\tNULL\tNULL\n",
+  "stderr": "",
+  "execution_time_ms": 54
+}
